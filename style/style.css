@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(201, 202, 206);
-    background-image: url(images/1.2.jpg);
+    background-image: url(images/screenL.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -132,7 +132,7 @@ nav {
 footer {
     bottom: 0;
     width: 100%;
-    height: 110px;
+    height: auto;
     margin-top: 5%;
     border-top: 3px solid black;
     border-top-left-radius: 15px;
@@ -147,13 +147,155 @@ footer h5 {
 }
 
 .mediaOption {
+    margin-top: 0%;
+    margin-bottom: 0%;
     margin-left: 10%;
 }
 
 .mediaOption p {
+    display: inline-block;
     color: white;
 }
 
 @media only screen and (max-width: 768px) and (min-width: 426px) {
 
 }
+
+@media only screen and (max-width: 425px) and (min-width: 376px) {
+    body {
+        background-size: auto;
+        background-image: url(images/screenM.jpg);
+        width: 100%;
+    }
+
+    h1 {
+        margin-left: 15px;
+    }
+
+    p, ul{
+        font-size: 22px;
+        width: 120%;
+    }
+
+    header {
+        width: 180%;
+    }
+
+    .splash {
+        margin-top: 35%;
+    }
+
+    .splash h1 {
+        font-size: 35px;
+        color: rgb(24, 56, 78);
+        font-weight: bold;
+    }
+
+    .splash p {
+        width: 150%;
+        height: 51%;
+        margin-left: 0%;
+        margin-right: 0px;
+        float: left;
+    }
+
+    .jumbotron {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .jumbotron p {
+        margin-left: 15%;
+    }
+
+    .imgDisplay1 img {
+        display: none;
+        margin-left: 5%;
+        float: left;
+    }
+
+    .imgDisplay2 {
+        display: none;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 0%;
+        height: 520px;
+        float: left;
+    }
+
+    #info3 {
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 0%;
+    }
+
+    #info3 ul {
+        margin-left: 12%;
+    }
+    
+
+
+    footer {
+        width: 148%;
+    }
+
+}
+
+/*
+width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(201, 202, 206);
+    background-image: url(images/1.2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+.splash {
+    border-radius: 35px;
+    Width: 90%;
+    height: 600px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    
+}
+
+.splash h1 {
+    margin-top: 2%;
+    text-align: left;
+    color: rgb(40, 91, 126);
+    font-size: 52px;
+}
+
+.splash p {
+    background: rgba(0, 0, 0, 0.3);
+    width: 60%;
+    padding: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px #000 3px 3px 3px blue;
+    box-shadow: 0 0 15px rgb(40, 91, 126);
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
